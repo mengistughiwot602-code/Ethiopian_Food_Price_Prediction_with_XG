@@ -241,10 +241,8 @@ The application is intended to load the saved model bundle and use the fitted pi
 
 ### 1. Clone the Repository
 
-Replace the URL below with the URL of your GitHub repository.
-
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/mengistughiwot602-code/Ethiopian_Food_Price_Prediction_with_XG.git
 cd your-repository
 ```
 
