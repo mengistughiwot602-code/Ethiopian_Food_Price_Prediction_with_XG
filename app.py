@@ -219,7 +219,7 @@ def load_dataset():
 
         if df.empty or not all(col in df.columns for col in ["date", "price", "admin1", "commodity"]):
             df = pd.DataFrame({
-                "date": pd.date_range(start="2020-01-01", periods=10, freq="ME"),
+                "date": pd.date_range(start="2020-01-01", periods=10, freq="MS"),
                 "admin1": ["Addis Ababa"] * 10,
                 "admin2": ["AA ZONE1"] * 10,
                 "market": ["Addis Ababa"] * 10,
@@ -240,7 +240,7 @@ def load_dataset():
 
     except Exception:
         df_fallback = pd.DataFrame({
-            "date": pd.date_range(start="2020-01-01", periods=10, freq="ME"),
+            "date": pd.date_range(start="2020-01-01", periods=10, freq="MS"),
             "admin1": ["Addis Ababa"] * 10,
             "admin2": ["AA ZONE1"] * 10,
             "market": ["Addis Ababa"] * 10,
