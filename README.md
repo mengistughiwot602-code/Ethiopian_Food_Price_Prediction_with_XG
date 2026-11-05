@@ -373,5 +373,5 @@ The resulting model bundle is designed to support an interactive Streamlit appli
 
 ## 15. Acknowledgement
 
-The project uses the World Food Programme (WFP) food-price dataset for Ethiopia as loaded in the notebook. Refer to the dataset provider's documentation and terms when redistributing or using the data.
+The project uses the World Food Programme (WFP) food-price dataset for Ethiopia . Refer to the dataset provider's documentation and terms when redistributing or using the data.
 
